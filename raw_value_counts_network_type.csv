@@ -1,0 +1,21 @@
+column,value,count,share_pct
+network_type,LAN,251770,52.314214
+network_type,WLAN,149473,31.058357
+network_type,LTE,32999,6.856721
+network_type,NR NSA,25737,5.347781
+network_type,CELLULAR UNKNOWN,10295,2.139154
+network_type,NR,5936,1.233416
+network_type,Ethernet,3765,0.782313
+network_type,HSPA+,753,0.156463
+network_type,EDGE,139,0.028882
+network_type,3G/4G,131,0.02722
+network_type,2G/4G,91,0.018909
+network_type,UMTS,49,0.010182
+network_type,LTE NR avail,42,0.008727
+network_type,VPN,32,0.006649
+network_type,<NA>,22,0.004571
+network_type,HSDPA,13,0.002701
+network_type,CELLULAR_ANY,8,0.001662
+network_type,Bluetooth,7,0.001455
+network_type,2G/3G/4G,2,0.000416
+network_type,EVDO_A,1,0.000208

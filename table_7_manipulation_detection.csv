@@ -1,0 +1,6 @@
+scenario,detected,reason,mean_disclosure_ratio,challenges,revealed_records
+honest_reporting,False,accepted_no_challenge,0.005139335,1318,2028
+kpi_recomputation,True,accepted_no_challenge,0.005158391,1296,2084
+outlier_removal_before_commitment,False,accepted_no_challenge,0.005098379,1330,2003
+post_commitment_substitution,True,accepted_no_challenge,0.005250716,1324,2477
+threshold_gaming_before_commitment,False,accepted_no_challenge,0.00529713,1296,2761

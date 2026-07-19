@@ -1,0 +1,15 @@
+metric,value
+Data source and snapshot period,https://www.netztest.at/opendata/export/netztest-opendata-2025-05.zip
+Raw measurement count,481265
+Valid measurement count after filtering,46621
+Excluded measurement count,434644
+Number of time windows,5
+Number of spatial units,194
+Number of slice profiles,5
+Number of generated reporting units,2378
+Median records per reporting unit,6.0
+Raw snapshot SHA-256,44307acf88cac6a463eb7af987db28f8c05ec63ea1066e4a8609f19733e388ab
+Cleaned dataset SHA-256,9e605d8db7f1e0539908464cbce4792547540fc4d0374346bbbf214f4447e215
+Window length,weekly
+Spatial granularity,grid
+Slice profile mode,threshold_proxy

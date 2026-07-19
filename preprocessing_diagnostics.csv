@@ -1,0 +1,13 @@
+stage,records_before,records_after,records_removed,removed_pct,rule
+raw,481265,481265,0,0.0,input rows
+valid_time_utc,481265,481265,0,0.0,time_utc parsed as UTC timestamp
+required_numeric_download_kbit,481265,481265,0,0.0,download_kbit present and >= 0
+required_numeric_upload_kbit,481265,481265,0,0.0,upload_kbit present and >= 0
+required_numeric_ping_ms,481265,481265,0,0.0,ping_ms present and >= 0
+not_implausible,481265,481265,0,0.0,implausible flag is false
+country_filter,481265,206026,275239,57.190737,country_location_normalized in ['AT']
+network_type_include,206026,47550,158476,76.920389,network_type_normalized in ['MOBILE']
+network_type_exclude,47550,47550,0,0.0,"network_type_normalized not in ['WLAN', 'LAN']"
+loc_accuracy,47550,47401,149,0.313354,loc_accuracy <= 2000.0m or missing
+coordinates_required,47401,47401,0,0.0,lat/long required for grid spatial unit
+slice_profile_exclude_fallback,47401,46621,780,1.645535,slice_profile != fallback after technology-to-profile mapping

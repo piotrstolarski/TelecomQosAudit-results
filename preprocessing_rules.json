@@ -1,0 +1,35 @@
+{
+  "country_filter_normalized": [
+    "AT"
+  ],
+  "country_filter_raw": [
+    "AT"
+  ],
+  "exclude_fallback_profile": true,
+  "grid_size_deg": 0.25,
+  "include_implausible": false,
+  "max_loc_accuracy_m": 2000,
+  "network_type_exclude_normalized": [
+    "WLAN",
+    "LAN"
+  ],
+  "network_type_exclude_raw": [
+    "WLAN",
+    "LAN"
+  ],
+  "network_type_include_normalized": [
+    "MOBILE"
+  ],
+  "network_type_include_raw": [
+    "MOBILE"
+  ],
+  "normalization": "country/network/technology aliases plus coordinate fallback for missing country",
+  "required_numeric": [
+    "download_kbit",
+    "upload_kbit",
+    "ping_ms"
+  ],
+  "slice_profile_mode": "threshold_proxy",
+  "spatial_granularity": "grid",
+  "window": "weekly"
+}
