@@ -1,15 +1,19 @@
 metric,value
-Data source and snapshot period,https://www.netztest.at/opendata/export/netztest-opendata-2025-05.zip
-Raw measurement count,481265
-Valid measurement count after filtering,46621
-Excluded measurement count,434644
-Number of time windows,5
-Number of spatial units,194
-Number of slice profiles,5
-Number of generated reporting units,2378
-Median records per reporting unit,6.0
-Raw snapshot SHA-256,44307acf88cac6a463eb7af987db28f8c05ec63ea1066e4a8609f19733e388ab
-Cleaned dataset SHA-256,9e605d8db7f1e0539908464cbce4792547540fc4d0374346bbbf214f4447e215
-Window length,weekly
+Data source and snapshot period,data\akos_cache\austria\neztest-opendata-austria.csv
+Raw measurement count,2888389
+Valid measurement count after filtering,259021
+Excluded measurement count,2629368
+Number of time windows,6
+Number of spatial units,174
+Number of synthetic workload categories,3
+Number of generated reporting units,1632
+Median records per reporting unit,72.5
+Minimum records per reporting unit,20
+First quartile records per reporting unit,39.0
+Minimum records per reporting unit required,20
+Reporting units with a single record,0
+Raw snapshot SHA-256,91100a90f55968b9121a8029d047ca190a0f4e346e366f57754490dd8d6d94ab
+Cleaned dataset SHA-256,adc581d7ce58b1373da57be814a8241adfe99538f587ebb948c6a6b3f6404359
+Window length,monthly
 Spatial granularity,grid
-Slice profile mode,threshold_proxy
+Workload category assignment mode,technology_proxy

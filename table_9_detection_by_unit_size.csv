@@ -1,0 +1,13 @@
+scenario,unit_size_bucket,reporting_units,challenged,detected,detection_rate,screening_violation_rate,escalation_rate,exact_audits,mean_disclosure_ratio,mean_samples_total,screening_reveal_records_mean,detection_is_trivial_full_disclosure
+honest_reporting,N=20-49,20736,294,0,0.0,0.0,0.0,0,0.001035496,32.6285,2.2891,False
+honest_reporting,N>=50,38016,599,0,0.0,0.0,0.0,0,0.000891148,222.2661,11.98,False
+kpi_recomputation,N=20-49,20736,306,62,0.202614379,0.202614379,0.202614379,62,0.003692777,32.6285,2.1895,False
+kpi_recomputation,N>=50,38016,576,153,0.265625,0.265625,0.265625,153,0.004510395,222.2661,12.1458,False
+outlier_removal_before_commitment,N=10-19,1116,16,0,0.0,0.0,0.0,0,0.000990379,19.0,1.3125,False
+outlier_removal_before_commitment,N=20-49,20592,300,0,0.0,0.0,0.0,0,0.001037484,32.8479,2.2667,False
+outlier_removal_before_commitment,N>=50,37044,611,0,0.0,0.0,0.0,0,0.000976644,215.9116,12.8085,False
+post_commitment_substitution,N=20-49,20736,320,320,1.0,1.0,0.0,0,0.001091701,32.6285,2.2594,False
+post_commitment_substitution,N>=50,38016,565,565,1.0,1.0,0.0,0,0.000841812,222.2661,13.9027,False
+threshold_gaming_before_commitment,N=10-19,36,1,0,0.0,0.0,0.0,0,0.001461988,19.0,1.0,False
+threshold_gaming_before_commitment,N=20-49,20700,298,0,0.0,0.0,0.0,0,0.001053591,32.5983,2.349,False
+threshold_gaming_before_commitment,N>=50,38016,539,0,0.0,0.0,0.0,0,0.000829508,222.1032,12.6327,False

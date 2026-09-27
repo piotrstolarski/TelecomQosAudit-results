@@ -1,8 +1,8 @@
-akos_cache_dir: data/akos_cache/austria_may_2025
+akos_cache_dir: data/akos_cache/austria
 akos_country_aliases_enabled: true
 akos_country_filter: AT
 akos_dataset_country: AT
-akos_dataset_label: austria_rtr_nettest_may_2025
+akos_dataset_label: austria_rtr_nettest_local_csv
 akos_export_basename: netztest-opendata
 akos_export_month: 5
 akos_export_year: 2025
@@ -16,27 +16,35 @@ akos_network_type_include: MOBILE
 akos_source_fallback_urls:
 - https://www.netztest.at/RMBTStatisticServer/export/netztest-opendata-2025-05.zip
 - https://w02v4.netztest.at/RMBTStatisticServer/export/netztest-opendata-2025-05.zip
-akos_source_path: https://www.netztest.at/opendata/export/netztest-opendata-2025-05.zip
-article_audit_commit_gas: 130000
+akos_source_path: data/akos_cache/austria/neztest-opendata-austria.csv
+article_audit_commit_gas: 50586
+article_audit_tiers: screening_then_exact
 article_auto_load_docker_gas: false
-article_challenge_gas: 75000
+article_challenge_gas: 49786
 article_challenge_rates:
 - 0.0
 - 0.001
 - 0.01
 - 0.05
 article_clean_output_dir: true
-article_commitment_registry_gas: 95000
+article_commitment_registry_gas: 46520
 article_cost_challenge_rate: 0.01
+article_cost_exact_audit_rate: 1.0
 article_cost_reveal_ratio: 0.05
 article_cost_use_measured_gas: true
 article_dataset_country: AT
+article_escalation_gas: 28128
 article_evidence_schema: akos_qos_v1
+article_exact_audit_escalation_policy: on_violation
+article_exact_audit_random_rate: 0.0
+article_exact_reveal_base_gas: 31032
 article_exclude_fallback_profile: true
-article_experiment_label: austria_may_2025_mobile_weekly_grid025
+article_experiment_label: austria_mobile_monthly_grid025_minN20
 article_experiment_role: main
-article_full_kpi_base_gas: 190000
-article_full_kpi_per_metric_gas: 8000
+article_export_exact_reveal_records: false
+article_full_kpi_base_gas: 24820
+article_full_kpi_per_metric_gas: 0
+article_full_kpi_per_word_gas: 22275
 article_grid_size_deg: 0.25
 article_journal_target: Telecom
 article_kpi_latency_thresholds_ms:
@@ -62,6 +70,7 @@ article_kpi_throughput_thresholds_kbit:
   urllc_like:
     download_p50_min_kbit: 1000
     upload_p50_min_kbit: 500
+article_kpi_words: 1
 article_ledger_model: simulated_ethereum_compatible_permissioned
 article_manipulation_scenarios:
 - honest_reporting
@@ -76,12 +85,14 @@ article_measured_gas_csvs:
 - results/docker_chain/contract_operations_measured.csv
 - results/docker_chain/article_contract_measurements.csv
 - results/docker_chain/onchain_transactions.csv
-article_mmtc_download_kbit: 256
-article_outdir: results/article/austria_main
+article_min_samples_per_unit: 20
+article_mmtc_download_kbit: 2000
+article_outdir: results/article/austria_monthly_minN20
+article_outlier_removal_share: 0.05
 article_prefer_measured_gas: true
 article_random_seed: 42
-article_reveal_base_gas: 125000
-article_reveal_per_record_gas: 2500
+article_reveal_base_gas: 30838
+article_reveal_per_record_gas: 772
 article_reveal_policies:
 - percentile_boundary
 - threshold_evidence
@@ -90,15 +101,16 @@ article_reveal_ratios:
 - 0.01
 - 0.05
 - 0.1
-article_settle_gas: 70000
-article_slice_profile_mode: threshold_proxy
+article_settle_gas: 29613
+article_slice_profile_mode: technology_proxy
 article_spatial_granularity: grid
-article_urllc_latency_ms: 30
-article_window: weekly
+article_threshold_gaming_margin_pct: 0.1
+article_urllc_latency_ms: 50
+article_window: monthly
 eth_usd: 2500
 eth_usd_source: gas_price_csv
 eth_usd_strategy: median
-gas_price_csv: data/gas_prices_may_2025.csv
+gas_price_csv: data/gas_prices_2026_h1.csv
 gas_price_percentile: 50
 gas_price_source: csv
 gas_price_strategy: median

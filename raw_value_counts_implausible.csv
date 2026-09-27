@@ -1,2 +1,3 @@
 column,value,count,share_pct
-implausible,False,481265,100.0
+implausible,False,2888388,99.999965
+implausible,True,1,3.5e-05

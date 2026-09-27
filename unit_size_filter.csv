@@ -1,0 +1,2 @@
+min_samples_per_unit,units_before,units_after,units_removed,measurements_before,measurements_after,measurements_removed,units_removed_pct,measurements_removed_pct,median_samples_before,median_samples_after
+20,2399,1632,767,259021,253507,5514,31.971655,2.128785,40.0,72.5

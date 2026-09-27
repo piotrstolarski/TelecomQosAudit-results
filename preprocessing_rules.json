@@ -29,7 +29,17 @@
     "upload_kbit",
     "ping_ms"
   ],
-  "slice_profile_mode": "threshold_proxy",
+  "slice_profile_independence": {
+    "assignment_metrics": [
+      "cat_technology",
+      "network_type"
+    ],
+    "assignment_uses_kpi_latency_metric": false,
+    "checks": [],
+    "independent_of_kpi_thresholds": true,
+    "mode": "technology_proxy"
+  },
+  "slice_profile_mode": "technology_proxy",
   "spatial_granularity": "grid",
-  "window": "weekly"
+  "window": "monthly"
 }

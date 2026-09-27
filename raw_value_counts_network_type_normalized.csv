@@ -1,7 +1,7 @@
 column,value,count,share_pct
-network_type_normalized,LAN,255535,53.096527
-network_type_normalized,WLAN,149473,31.058357
-network_type_normalized,MOBILE,76196,15.832442
-network_type_normalized,VPN,32,0.006649
-network_type_normalized,,22,0.004571
-network_type_normalized,BLUETOOTH,7,0.001455
+network_type_normalized,LAN,1512202,52.354513
+network_type_normalized,WLAN,977455,33.840837
+network_type_normalized,MOBILE,398455,13.79506
+network_type_normalized,VPN,208,0.007201
+network_type_normalized,,47,0.001627
+network_type_normalized,BLUETOOTH,22,0.000762
