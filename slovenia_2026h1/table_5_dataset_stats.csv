@@ -1,0 +1,19 @@
+metric,value
+Data source and snapshot period,https://akostest.net/RMBTStatisticServer/export/netztest-opendata-2026-01.zip; https://akostest.net/RMBTStatisticServer/export/netztest-opendata-2026-02.zip; https://akostest.net/RMBTStatisticServer/export/netztest-opendata-2026-03.zip; https://akostest.net/RMBTStatisticServer/export/netztest-opendata-2026-04.zip; https://akostest.net/RMBTStatisticServer/export/netztest-opendata-2026-05.zip; https://akostest.net/RMBTStatisticServer/export/netztest-opendata-2026-06.zip
+Raw measurement count,146807
+Valid measurement count after filtering,16517
+Excluded measurement count,130290
+Number of time windows,6
+Number of spatial units,37
+Number of synthetic workload categories,3
+Number of generated reporting units,191
+Median records per reporting unit,44.0
+Minimum records per reporting unit,20
+First quartile records per reporting unit,27.0
+Minimum records per reporting unit required,20
+Reporting units with a single record,0
+Raw snapshot SHA-256,94f966bf2b1d77995b90071cea46948eacfe5b34b72f8286aa7725fa38bef2ba
+Cleaned dataset SHA-256,aa7577cb3475b99b39488f7141f7367de5331671f1f14b47124b34b912775d6a
+Window length,monthly
+Spatial granularity,grid
+Workload category assignment mode,technology_proxy

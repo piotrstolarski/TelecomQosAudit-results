@@ -1,0 +1,11 @@
+column,value,count,share_pct
+cat_technology_normalized,LAN,85978,58.565327
+cat_technology_normalized,WLAN,34522,23.515227
+cat_technology_normalized,5G_NR,9946,6.774881
+cat_technology_normalized,4G_LTE,9339,6.361413
+cat_technology_normalized,MOBILE,4289,2.921523
+cat_technology_normalized,ETHERNET,2616,1.781931
+cat_technology_normalized,3G,99,0.067435
+cat_technology_normalized,2G,16,0.010899
+cat_technology_normalized,BLUETOOTH,1,0.000681
+cat_technology_normalized,,1,0.000681

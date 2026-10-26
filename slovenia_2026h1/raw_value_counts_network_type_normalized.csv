@@ -1,0 +1,6 @@
+column,value,count,share_pct
+network_type_normalized,LAN,88594,60.347259
+network_type_normalized,WLAN,34522,23.515227
+network_type_normalized,MOBILE,23689,16.136152
+network_type_normalized,BLUETOOTH,1,0.000681
+network_type_normalized,,1,0.000681
